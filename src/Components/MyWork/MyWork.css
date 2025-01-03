@@ -1,0 +1,157 @@
+.mywork {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+  }
+  
+  .mywork-title h1 {
+    font-size: 80px;
+    font-weight: 600;
+  }
+  
+  .mywork-container {
+    perspective: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+  }
+  
+  .work-card {
+    position: relative;
+    background: #222;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 10px; 
+    transform: rotate3d(0, 0, 0, 0); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .work-card:hover {
+    transform: rotate3d(1, 1, 0, -14.68deg);
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.5);
+    border: 4px solid #ff00ff;
+  }
+  
+  .work-image-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .work-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+  }
+  
+  .github-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .github-icon img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .github-icon a {
+    color: white;
+  }
+  
+  .work-details {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .work-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .work-description {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  .work-tags {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .work-tag {
+    font-size: 14px;
+    color: #ff00ff;
+    background: rgba(255, 0, 255, 0.1);
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .mywork-showmore {
+    display: flex;
+    gap: 15px;
+    border-radius: 50px;
+    border: 2px solid white;
+    padding: 30px 60px;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 80px;
+    cursor: pointer;
+    transition: 0.6s;
+  }
+  
+  .mywork-showmore:hover {
+    gap: 30px;
+    transition: 0.6s;
+  }
+
+  @media(max-width: 768px){
+    .mywork{
+      gap: 50px;
+      margin: 50px 70px;
+      align-items: start;
+    }
+
+    .mywork-title h1{
+      padding: 0;
+      font-size: 50px;
+      font-weight: 600;
+    }
+
+    .mywork-container{
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+    }
+
+    .work-card {
+      padding: 15px;
+    }
+
+   .mywork-showmore{
+    padding: 20px 40px;
+    font-size: 18px;
+    margin: 50px auto;
+    cursor: pointer;
+   }
+
+  }
+
+
+  
