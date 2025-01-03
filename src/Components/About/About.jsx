@@ -13,7 +13,7 @@ const About = () => {
         </div>
         <div className="about-right">
             <div className="about-para">
-            <p>I am a passionate full-stack web developer who is dedicated to bringing innovative ideas to life. </p>
+            <p>I am a passionate full-stack webbbbbbbbbbbbbbbbbbbb developer who is dedicated to bringing innovative ideas to life. </p>
             <p>My journey began with a strong foundation in computer science and a genuine interest in crafting seamless user experiences. Through school projects and valuable internships, I gained hands-on experience in both front-end and back-end technologies. I enjoy the challenge of turning complex problems into elegant solutions, and my creativity and problem-solving mindset have made me a sought-after professional in the ever-evolving world of web development.I am a passionate full-stack web developer who is dedicated to bringing innovative ideas to life. My journey began with a strong foundation in computer science and a genuine interest in crafting seamless user experiences. Through school projects and valuable internships, I gained hands-on experience in both front-end and back-end technologies. I enjoy the challenge of turning complex problems into elegant solutions, and my creativity and problem-solving mindset have made me a sought-after professional in the ever-evolving world of web development.</p>
             </div>
             <div className="about-skills">
