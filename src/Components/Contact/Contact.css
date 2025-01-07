@@ -136,7 +136,7 @@
     }
 
     .contact-title::after{
-        width: 242px; 
+        width: 235px; 
     }
 
     .contact-section{
@@ -164,17 +164,21 @@
     }
 
     .contact-right input{
-        width: 70%;
+        width: 80%;
         font-size: 20px;
     }
 
     .contact-right textarea{
-        width: 70%;
+        width: 80%;
         font-size: 20px;
     }
 
     .contact-submit{
         font-size: 20px;
         padding: 15px 40px;
+    }
+
+    .contact-right{
+        padding: 15;
     }
 }
