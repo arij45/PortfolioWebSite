@@ -130,8 +130,8 @@
         padding: 0;
     }
 
-    .about-title::after{
-        width: 220px; 
+    .about-title ::after{
+        width: 217px; 
     }
 
     .about-sections{

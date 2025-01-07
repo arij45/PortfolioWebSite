@@ -150,8 +150,8 @@
       font-weight: 600;
     }
 
-    .mywork-title::after{
-      width: 244px; 
+    .mywork-title ::after{
+      width: 246px; 
   }
 
     .mywork-container{

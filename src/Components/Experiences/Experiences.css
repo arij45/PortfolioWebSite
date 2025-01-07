@@ -147,8 +147,8 @@
         font-size: 40px;
     }
 
-    .experiences-title::after{
-        width: 247px; 
+    .experiences-title ::after{
+        width: 252px; 
     }
 
     
