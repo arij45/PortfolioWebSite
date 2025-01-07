@@ -63,7 +63,7 @@
     .nav-mob-open{
         display: block;
         position: fixed;
-        right: 430px;
+        right: 30px;
     }
 
     .nav-mob-close{
@@ -85,7 +85,7 @@
         height: 100%;
         z-index: 2;
         transition: right 0.5s;
-        right: 600px;
+        right: -350px;
 
     }
 
