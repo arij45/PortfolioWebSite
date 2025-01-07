@@ -139,8 +139,8 @@
 
   @media(max-width: 768px){
     .mywork{
-      gap: 30px;
-      margin: 50px 30px;
+      gap: 70px;
+      margin: 30px 20px;
       align-items: start;
     }
 
@@ -150,21 +150,20 @@
       font-weight: 600;
     }
 
+    .mywork-title::after{
+      width: 239px; 
+  }
+
     .mywork-container{
-      grid-template-columns: 1fr 1fr;
-      gap: 30px;
+      flex-direction: column;
+      gap: 40px;
+      grid-template-columns: 1fr;
+      margin-bottom: 50px; 
     }
 
     .work-card {
       padding: 15px;
     }
-
-   .mywork-showmore{
-    padding: 20px 40px;
-    font-size: 18px;
-    margin: 50px auto;
-    cursor: pointer;
-   }
 
   }
 
