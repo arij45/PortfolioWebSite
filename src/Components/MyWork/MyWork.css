@@ -150,7 +150,7 @@
       font-weight: 600;
     }
 
-    .mywork-title ::after{
+    .mywork-title::after{
       width: 250px; 
   }
 
