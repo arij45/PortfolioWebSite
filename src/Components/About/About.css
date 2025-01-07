@@ -121,7 +121,7 @@
 @media(max-width: 768px){
     .about{
         gap: 80px;
-        margin: 50px 40px;
+        margin: 30px 20px;
         align-items: start;
     }
 
