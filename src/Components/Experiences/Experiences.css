@@ -144,7 +144,7 @@
 
     .experiences-title h1{
         padding: 0;
-        font-size: 50px;
+        font-size: 35px;
     }
 
     .experiences-title::after{
@@ -157,13 +157,13 @@
     }
 
     .experiences-format h2{
-        font-size: 28px;
+        font-size: 25px;
     }
 
     .experiences-container {
         flex-direction: column;
-        gap: 20px;
+        gap: 40px;
         grid-template-columns: 1fr;
-        margin-bottom: 40px;  
+        margin-bottom: 50px;  
       }
 }
