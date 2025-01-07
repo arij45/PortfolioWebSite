@@ -130,6 +130,10 @@
         padding: 0;
     }
 
+    .about-title::after{
+        width: 200px; 
+    }
+
     .about-sections{
         flex-direction: column;
     }
