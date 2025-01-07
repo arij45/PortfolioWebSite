@@ -16,6 +16,16 @@
     font-weight: 600;
 }
 
+.about-title::after {
+    content: "";
+    display: block;
+    width: 400px; 
+    height: 4px;
+    background-color: #c441a3;
+    margin: 0 auto;
+    margin-top: 6px;
+}
+
 .about-sections{
     display: flex;
     gap: 80px;
@@ -33,6 +43,8 @@
     gap: 20px;
     font-size: 24px;
     font-weight: 500;
+    padding-left: 40px;
+
 }
 
 .about-skills{
@@ -100,6 +112,10 @@
 .about-achievement:hover{
     transform: scale(1.12);
     transition: 0.5s;
+}
+
+.about-left img{
+    width: 180%;
 }
 
 @media(max-width: 768px){

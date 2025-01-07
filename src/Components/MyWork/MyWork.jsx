@@ -30,10 +30,6 @@ const MyWork = () => {
             </div>
           ))}
         </div>
-        <div className="mywork-showmore">
-          <p>Show More</p>
-          <span className="material-icons">arrow_forward</span>
-        </div>
       </div>
     );
   };

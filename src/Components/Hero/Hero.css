@@ -6,7 +6,7 @@
 }
 
 .hero img{
-    margin-top:150px;
+    width:10%;
 }
 .hero h1 {
     text-align: center;
@@ -53,6 +53,12 @@
     border-radius: 50px;
     border: 2px solid #FFF;
     cursor: pointer;
+}
+
+.hero-resume-link{
+    text-decoration: none;
+    color: white; 
+    display: flex;
 }
 
 .hero-connect:hover{

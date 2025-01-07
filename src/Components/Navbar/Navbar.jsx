@@ -19,7 +19,6 @@ const Navbar = () => {
 
  }
 
-
   return (
     <div className='navbar'>
         <img src={profileName} alt="Profile Name"/>

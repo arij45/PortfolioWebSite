@@ -10,9 +10,10 @@ const Hero = () => {
         <p>I'm an Android and Flutter Developer, as well as a DevOps Enthusiast from Tunisia. I'm a dynamic and ambitious developer with solid experience in software development.</p>
         <div className='hero-action'>
             <div><AnchorLink className='hero-connect' href='#contact'>Connect With Me</AnchorLink></div>
-            <div className="hero-resume">My resume</div>
-        </div>
-
+            <div className="hero-resume">
+             <a href="/KortasArij_SoftwareEngineer.pdf" download="KortasArij_SoftwareEngineer.pdf" className="hero-resume-link">My Resume</a>
+             </div>
+            </div>
     </div>
   )
 }

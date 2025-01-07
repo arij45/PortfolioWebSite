@@ -13,39 +13,50 @@ const About = () => {
         </div>
         <div className="about-right">
             <div className="about-para">
-            <p>I am a passionate full-stack webbbbbbbbbbbbbbbbbbbb developer who is dedicated to bringing innovative ideas to life. </p>
-            <p>My journey began with a strong foundation in computer science and a genuine interest in crafting seamless user experiences. Through school projects and valuable internships, I gained hands-on experience in both front-end and back-end technologies. I enjoy the challenge of turning complex problems into elegant solutions, and my creativity and problem-solving mindset have made me a sought-after professional in the ever-evolving world of web development.I am a passionate full-stack web developer who is dedicated to bringing innovative ideas to life. My journey began with a strong foundation in computer science and a genuine interest in crafting seamless user experiences. Through school projects and valuable internships, I gained hands-on experience in both front-end and back-end technologies. I enjoy the challenge of turning complex problems into elegant solutions, and my creativity and problem-solving mindset have made me a sought-after professional in the ever-evolving world of web development.</p>
+            <p>I am an enthusiastic Android and Flutter developer with a solid background in computer science and a passion for mobile development. My journey started with school projects and internships, where I developed hands-on expertise in building intuitive user experiences. I enjoy the challenge of solving complex problems and take pride in creating Android applications from concept to deployment. Seeing my work come to life on devices is deeply rewarding. With a creative mindset and a knack for problem-solving, I am committed to delivering innovative solutions in the ever-evolving mobile development landscape. </p>
             </div>
             <div className="about-skills">
                 <div className="about-skill">
-                <p>skill1</p><hr style={{width:"50%"}}/>
+                <p>Flutter</p><hr style={{width:"50%"}}/>
                 </div>
                 <div className="about-skill">
-                <p>skill1</p><hr style={{width:"50%"}}/>
+                <p>Java</p><hr style={{width:"50%"}}/>
                 </div>
                 <div className="about-skill">
-                <p>skill1</p><hr style={{width:"50%"}}/>
+                <p>Spring Boot</p><hr style={{width:"50%"}}/>
                 </div>
                 <div className="about-skill">
-                <p>skill1</p><hr style={{width:"50%"}}/>
+                <p>Github</p><hr style={{width:"50%"}}/>
+                </div>
+                <div className="about-skill">
+                <p>Docker</p><hr style={{width:"50%"}}/>
+                </div>
+                <div className="about-skill">
+                <p>Jenkins</p><hr style={{width:"50%"}}/>
+                </div>
+                <div className="about-skill">
+                <p>Azure</p><hr style={{width:"50%"}}/>
+                </div>
+                <div className="about-skill">
+                <p>AWS</p><hr style={{width:"50%"}}/>
                 </div>
             </div>
         </div>
         </div>
         <div className="about-achievements">
             <div className="about-achievement">
-                <h1>10+</h1>
-                <p>YEARS OF EXPERIENCE</p>
+                <h1>6 years</h1>
+                <p>ENGINEERING DIMPLOMA</p>
             </div>
             <hr/>
             <div className="about-achievement">
-                <h1>90+</h1>
+                <h1>5</h1>
                 <p>PROJECTS COMPLETED</p>
             </div>
             <hr/>
             <div className="about-achievement">
-                <h1>15+</h1>
-                <p>HAPPY CLIENTS</p>
+                <h1>6</h1>
+                <p>INTERSHIPS</p>
             </div>
         </div>
      </div>

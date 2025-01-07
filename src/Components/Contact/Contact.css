@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: 80px 170px;
+    margin: 200px 170px;
 }
 
 .contact-title{
@@ -15,6 +15,16 @@
     padding: 0px 30px;
     font-size: 80px;
     font-weight: 600;
+}
+
+.contact-title ::after {
+    content: "";
+    display: block;
+    width: 450px; 
+    height: 4px;
+    background-color: #c441a3;
+    margin: 0 auto;
+    margin-top: 6px;
 }
 
 .contact-section{

@@ -11,22 +11,37 @@
     font-size: 80px;
     font-weight: 600;
   }
+
+  .mywork-title h1::after {
+    content: "";
+    display: block;
+    width: 200 px; 
+    height: 4px;
+    background-color: #c441a3;
+    margin-top: 6px;
+    margin-right: auto;
+    margin-bottom:10px;
+    margin-top:10px
+}
   
   .mywork-container {
-    perspective: 1000px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 40px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* Two cards per row */
+      gap: 40px;
   }
   
   .work-card {
+    border: 4px solid #ffff;
     position: relative;
     background: #222;
     border-radius: 15px;
     overflow: hidden;
-    padding: 10px; 
-    transform: rotate3d(0, 0, 0, 0); 
+    padding: 10px;
+    transform: rotate3d(0, 0, 0, 0);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 92%; 
+    height: 100%; 
+    max-width: 400px; 
   }
   
   .work-card:hover {
@@ -78,14 +93,14 @@
   }
   
   .work-title {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     color: white;
   }
   
   .work-description {
     margin-top: 10px;
-    font-size: 14px;
+    font-size: 18px;
     color: #ccc;
   }
   
@@ -97,7 +112,7 @@
   }
   
   .work-tag {
-    font-size: 14px;
+    font-size: 16px;
     color: #ff00ff;
     background: rgba(255, 0, 255, 0.1);
     padding: 5px 10px;
@@ -124,14 +139,14 @@
 
   @media(max-width: 768px){
     .mywork{
-      gap: 50px;
-      margin: 50px 70px;
+      gap: 30px;
+      margin: 50px 30px;
       align-items: start;
     }
 
     .mywork-title h1{
       padding: 0;
-      font-size: 50px;
+      font-size: 40px;
       font-weight: 600;
     }
 
