@@ -158,11 +158,12 @@
       flex-direction: column;
       gap: 40px;
       grid-template-columns: 1fr;
-      margin-bottom: 70px; 
+      margin-bottom: 20px; 
     }
 
     .work-card {
       padding: 15px;
+      margin-bottom: 50px; 
     }
 
   }
