@@ -135,8 +135,8 @@
         font-weight: 600;
     }
 
-    .contact-title::after{
-        width: 120px; 
+    .contact-title ::after {
+        width: 50px; 
     }
 
     .contact-section{
