@@ -121,7 +121,7 @@
 @media(max-width: 768px){
     .about{
         gap: 80px;
-        margin: 50px 70px;
+        margin: 50px 40px;
         align-items: start;
     }
 
@@ -131,7 +131,7 @@
     }
 
     .about-title::after{
-        width: 250px; 
+        width: 230px; 
     }
 
     .about-sections{
