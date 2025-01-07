@@ -136,7 +136,7 @@
     }
 
     .contact-title::after{
-        width: 235px; 
+        width: 120px; 
     }
 
     .contact-section{
@@ -179,6 +179,6 @@
     }
 
     .contact-right{
-        padding: 15;
+        padding: 15px;
     }
 }
