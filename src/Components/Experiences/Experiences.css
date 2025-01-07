@@ -148,7 +148,7 @@
     }
 
     .experiences-title::after{
-        width: 230px; 
+        width: 236px; 
     }
 
     
@@ -165,5 +165,9 @@
         gap: 40px;
         grid-template-columns: 1fr;
         margin-bottom: 50px;  
+      }
+
+      .company-icon[data-index="1"] {
+        left: 344px; 
       }
 }

@@ -18,7 +18,9 @@ const Experiences = () => {
           return (
             <div key={index} className="experiences-format">
               <h3>{experience.s_name}</h3>
-              <div className="company-icon"style={dynamicStyle}>
+              <div className="company-icon"style={dynamicStyle}
+              data-index={index}
+              >
               <img src={experience.s_companyimage} alt="Company" />
               </div>
               <h2>{experience.s_company}</h2>
