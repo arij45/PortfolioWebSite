@@ -170,4 +170,8 @@
       .company-icon[data-index="1"] {
         left: 100px; 
       }
+
+      .experiences-format h3{
+        font-size: 24px;
+    }
 }
