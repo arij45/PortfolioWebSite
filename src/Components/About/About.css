@@ -131,7 +131,11 @@
     }
 
     .about-title::after{
-        width: 200px; 
+        width: 250px; 
+    }
+
+    .about-para {
+        flex-direction: row;
     }
 
     .about-sections{
