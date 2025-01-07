@@ -139,12 +139,16 @@
     .experiences{
         align-items: start;
         gap: 70px;
-        margin: 20px 70px;
+        margin: 30px 20px;
     }
 
     .experiences-title h1{
         padding: 0;
         font-size: 50px;
+    }
+
+    .experiences-title::after{
+        width: 230px; 
     }
 
     
@@ -159,5 +163,7 @@
     .experiences-container {
         flex-direction: column;
         gap: 20px;
+        grid-template-columns: 1fr;
+        margin-bottom: 40px;  
       }
 }
