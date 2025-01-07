@@ -167,9 +167,9 @@
         margin-bottom: 50px;  
       }
 
-      .company-icon[data-index="1"] {
-        left: 100px; 
-      }
+      .company-icon{
+        top: 120px;
+    }
 
       .experiences-format h3{
         font-size: 20px;
