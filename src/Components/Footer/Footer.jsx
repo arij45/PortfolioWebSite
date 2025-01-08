@@ -7,7 +7,7 @@ const Footer = () => {
         <div className='footer-top'>
     <div className='footer-top-left'>
         <img src={footer_logo} alt=""/>
-        <p>I'm an Android and Flutter Developer, as well as a DevOps Enthusiast from Tunisia. I'm a dynamic and ambitious developer with solid experience in software development.</p>
+        <p>I'm an Android and Flutter Developer, a DevOps Enthusiast, and currently a Flutter freelancer from Tunisia. I'm a dynamic and ambitious developer with solid experience in software development.</p>
     </div>
     </div>
     <hr/>

@@ -6,8 +6,8 @@ const Hero = () => {
   return (
     <div id='home' className='hero'>
         <img src={profile_img} alt=""/>
-        <h1><span>I'am Arij Kortas, </span>Android and Flutter Developer, as well as a DevOps Enthusiast</h1>
-        <p>I'm an Android and Flutter Developer, as well as a DevOps Enthusiast from Tunisia. I'm a dynamic and ambitious developer with solid experience in software development.</p>
+        <h1><span>I'am Arij Kortas, </span>Android and Flutter Developer, a DevOps Enthusiast, and currently a Flutter freelancer </h1>
+        <p>I'm an Android and Flutter Developer, a DevOps Enthusiast and currently a Flutter freelancer from Tunisia. I'm a dynamic and ambitious developer with solid experience in software development.</p>
         <div className='hero-action'>
             <div><AnchorLink className='hero-connect' href='#contact'>Connect With Me</AnchorLink></div>
             <div className="hero-resume">

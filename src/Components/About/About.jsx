@@ -13,7 +13,7 @@ const About = () => {
         </div>
         <div className="about-right">
             <div className="about-para">
-            <p>I am an enthusiastic Android and Flutter developer with a solid background in computer science and a passion for mobile development. My journey started with school projects and internships, where I developed hands-on expertise in building intuitive user experiences. I enjoy the challenge of solving complex problems and take pride in creating Android applications from concept to deployment. Seeing my work come to life on devices is deeply rewarding. With a creative mindset and a knack for problem-solving, I am committed to delivering innovative solutions in the ever-evolving mobile development landscape. </p>
+            <p>I am an enthusiastic Android and Flutter developer, and currently a Flutter freelancer with a solid background in computer science and a passion for mobile development. My journey started with school projects and internships, where I developed hands-on expertise in building intuitive user experiences. I enjoy the challenge of solving complex problems and take pride in creating Android applications from concept to deployment. Seeing my work come to life on devices is deeply rewarding. With a creative mindset and a knack for problem-solving, I am committed to delivering innovative solutions in the ever-evolving mobile development landscape. </p>
             </div>
             <div className="about-skills">
                 <div className="about-skill">
