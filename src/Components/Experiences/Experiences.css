@@ -162,10 +162,9 @@
 
     .experiences-container {
         flex-direction: column;
-        gap: 10px;
+        gap: 40px;
         grid-template-columns: 1fr;
         margin-bottom: 50px;  
-        width: 60%;
       }
 
       .company-icon{
